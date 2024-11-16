@@ -1,0 +1,94 @@
+/* Category Section */
+.category-section {
+    text-align: center;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.categories-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Space between categories */
+    margin-bottom: 20px;
+}
+
+.category {
+    text-align: center;
+    max-width: 300px;
+}
+
+.category-header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px; /* Space between the icon and title */
+    margin-bottom: 10px;
+}
+
+.category-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #eef3fa;
+    border-radius: 10px;
+}
+
+.category-icon img {
+    size: 1rem;
+}
+
+.category h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+}
+
+.category p {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.4;
+    margin: 0;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.browse-jobs-container {
+    margin-top: 40px;
+}
+
+.horizontal-line {
+    width: 75rem;
+    /* max-width: 600px; */
+    height: 1px;
+    background-color: #ddd;
+    margin: 0 auto 20px; 
+}
+
+.browse-jobs-link {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #00796b;
+    font-weight: bold;
+}
+
+.browse-jobs-link:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .categories-container {
+        flex-direction: column;
+        gap: 20px; /* Reduce spacing between categories */
+    }
+}

@@ -9,5 +9,7 @@ function loadSection(id, file) {
 
 loadSection('main-page', 'html/main-page.html');
 loadSection('featured-jobs', 'html/featured-jobs.html');
-loadSection('career-planning-portal', 'html/career-planning-portal.html');
+loadSection('resume', 'html/resume.html');
+loadSection('hiring', 'html/hiring.html');
+loadSection('browse-jobs', 'html/browse-jobs.html');
 loadSection('footer', 'html/footer.html');
