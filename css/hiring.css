@@ -1,0 +1,74 @@
+/* Hiring Section */
+.hiring-section {
+    padding: 90px 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.hiring-container {
+    display: flex;
+    gap: 8rem;
+    max-width: 1200px; /* Matches the job table width */
+    margin: 0 auto;
+    align-items: center;
+}
+
+.hiring-image img {
+    width: 100%;
+    max-width: 28rem;
+    border-radius: 10px; /* Rounded corners for the image */
+    object-fit: cover;
+}
+
+.hiring-content {
+    flex: 1;
+    text-align: left;
+}
+
+.hiring-content h2 {
+    font-size: 2rem;
+    font-weight: 100;
+    margin-bottom: 1.2rem;
+    margin-top: 0;
+    color: #000;
+}
+
+.hiring-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.hiring-button {
+    background-color: #00a79d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.hiring-button:hover {
+    background-color: #00897a;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hiring-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hiring-image img {
+        max-width: 100%; /* Ensure the image is responsive */
+    }
+
+    .hiring-content {
+        text-align: center;
+    }
+}

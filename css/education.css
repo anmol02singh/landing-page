@@ -1,0 +1,56 @@
+.education-page {
+    padding: 100px 48px; 
+    background-color: #F2FAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.education-container {
+    max-width: 1200px; 
+    text-align: center;
+}
+
+.education-content {
+    max-width: 600px; 
+    margin: 0 auto;
+}
+
+.education-icon {
+    width: 50px; 
+    height: auto;
+}
+
+.education-title {
+    font-size: 2rem; 
+    font-weight: 400;
+    color: #131313;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.education-description {
+    font-size: 1rem;
+    color: #666;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    margin-bottom: 30px; /* Space below the description */
+}
+
+.education-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 0.95rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    background-color: #00989E;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.education-button:hover {
+    background-color: #F0FBFB;
+    color: #00989E;
+}

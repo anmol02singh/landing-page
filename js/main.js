@@ -9,5 +9,12 @@ function loadSection(id, file) {
 
 loadSection('main-page', 'html/main-page.html');
 loadSection('featured-jobs', 'html/featured-jobs.html');
-loadSection('career-planning-portal', 'html/career-planning-portal.html');
+loadSection('resume', 'html/resume.html');
+loadSection('hiring', 'html/hiring.html');
+loadSection('browse-jobs', 'html/browse-jobs.html');
+loadSection('services', 'html/services.html');
+loadSection('about', 'html/about.html');
+loadSection('portal', 'html/portal.html');
+loadSection('education', 'html/education.html');
+loadSection('boost', 'html/boost.html');
 loadSection('footer', 'html/footer.html');

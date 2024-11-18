@@ -1,1 +1,204 @@
-/* main page styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.SFcareer-center {
+    padding: 0.5rem 3rem;
+    text-align: center;
+    background-image: url('/assets/bgr_img.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    padding: 25px 50px;
+}
+
+.left-nav-bar {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo img {
+    margin-right: 11px;
+    height: 40px;
+    vertical-align: text-bottom;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    font-family: 'arial';
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.nav-button {
+    margin-left: auto;
+}
+
+.nav-button:hover {
+    background-color: #0098a1;
+    border-radius: 0.4rem;
+}
+
+.job-button {
+    background-color: #008a8f;
+    color: white;
+    border: none;
+    font-family: 'arial';
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 0.9rem 1.5rem;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    white-space: nowrap;
+
+}
+
+.job-button:hover {
+    background-color: #0098a1;
+}
+
+.job-button-2 {
+    background-color: #008a8f;
+    color: white;
+    border: none;
+    font-family: 'arial';
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 0.9rem 1.5rem;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    white-space: nowrap;
+}
+
+.job-button-2:hover {
+    background-color: #0098a1;
+}
+
+.center-content {
+    text-align: center;
+    margin: auto;
+}
+
+.main-page-title {
+    font-family: 'arial';
+    font-size: 3.5rem;
+    font-weight: 300;
+    margin: 0rem;
+}
+
+.main-subtitle {
+    font-family: 'arial';
+    color: #b4b4b4;
+    font-size: 1.8rem;
+}
+
+.secondary-button {
+    background-color: transparent;
+    color: white;
+    font-size: 1.2rem;
+    border: 1px solid white;
+    border-radius: 0.4rem;
+    padding: 0.8rem 1.5rem;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    white-space: nowrap;
+}
+
+.secondary-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.partners-section {
+    background-color: #F2F6FB;
+    text-align: center;
+}
+
+.partners {
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: space-around;
+    padding: 2rem 12rem; 
+    overflow-x: auto; 
+}
+
+.partners img {
+    max-width: 140px; 
+    flex-shrink: 0;
+    margin: 1rem;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.partners img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+
+    .nav-bar {
+        overflow-x: auto;
+    }
+
+    .left-nav-bar {
+        margin-right: 1.2rem;
+    }
+
+    .main-page-title {
+        font-size: 2.5rem;
+    }
+
+    .main-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .partners img {
+        max-width: 100px; 
+    }
+}
+
+@media (max-width: 593px) {
+    
+    .partners {
+        justify-content: space-between; 
+        padding: 2rem 2rem; 
+    }
+
+    .partners img {
+        max-width: 80px;
+    }
+
+    .secondary-button {
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+
+
+}
