@@ -1,21 +1,27 @@
 /* Category Section */
 .category-section {
     text-align: center;
-    padding: 40px 20px;
+    padding: 40px 48px 90px 48px;
+    font-family: Arial, sans-serif;
+}
+
+.category-section-boost {
+    text-align: center;
+    padding: 80px 48px 110px 48px;
     font-family: Arial, sans-serif;
 }
 
 .section-title {
     font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 30px;
+    font-weight: 100;
+    margin-bottom: 50px;
     color: #000;
 }
 
 .categories-container {
     display: flex;
     justify-content: center;
-    gap: 40px; /* Space between categories */
+    gap: 9rem; /* Space between categories */
     margin-bottom: 20px;
 }
 
@@ -48,7 +54,7 @@
 
 .category h3 {
     font-size: 1.1rem;
-    font-weight: bold;
+    font-weight: 100;
     margin: 0;
     color: #333;
 }
@@ -59,7 +65,7 @@
     line-height: 1.4;
     margin: 0;
     text-align: left;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .browse-jobs-container {
@@ -71,14 +77,14 @@
     /* max-width: 600px; */
     height: 1px;
     background-color: #ddd;
-    margin: 0 auto 20px; 
+    margin: 0 auto 50px; 
 }
 
 .browse-jobs-link {
     text-decoration: none;
-    font-size: 1rem;
-    color: #00796b;
-    font-weight: bold;
+    font-size: 0.9rem;
+    color: #333;
+    font-weight: 100;
 }
 
 .browse-jobs-link:hover {

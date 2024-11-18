@@ -105,14 +105,14 @@ body, html {
     margin: auto;
 }
 
-.title {
+.main-page-title {
     font-family: 'arial';
     font-size: 3.5rem;
     font-weight: 300;
     margin: 0rem;
 }
 
-.subtitle {
+.main-subtitle {
     font-family: 'arial';
     color: #b4b4b4;
     font-size: 1.8rem;
@@ -171,11 +171,11 @@ body, html {
         margin-right: 1.2rem;
     }
 
-    .title {
+    .main-page-title {
         font-size: 2.5rem;
     }
 
-    .subtitle {
+    .main-subtitle {
         font-size: 1.2rem;
     }
 

@@ -1,0 +1,242 @@
+/* Career Planning Section */
+.career-planning {
+    padding: 40px 48px;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.career-container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    text-align: left; 
+}
+
+.career-title {
+    font-size: 2rem;
+    font-weight: 100;
+    color: #131313;
+    margin-bottom: 35px;
+    text-align: center; 
+}
+
+.career-subtitle {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.4;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* .career-main-block {
+    display: flex;
+    align-items: start;
+    justify-content: space-between; 
+    background-color: #f2f6fb;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.career-image {
+    width: 38%; 
+    height: auto;
+    object-fit: cover;
+}
+
+.career-main-content {
+    padding: 60px;
+    flex: 1;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    height: 100%; 
+}
+
+.career-label {
+    display: inline-block;
+    background-color: #CDDBED;
+    color: #131313;
+    font-size: 1.1rem;
+    padding: 4px 8px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.career-main-title {
+    font-size: 2rem;
+    font-weight: 100;
+    color: #131313;
+}
+
+.career-link {
+    font-size: 1rem;
+    color: #131313;
+    text-decoration: none;
+    margin-top: auto; 
+}
+
+.career-link:hover {
+    text-decoration: underline;
+} */
+
+.career-main-block {
+    display: flex;
+    align-items: stretch; /* Ensure items stretch to fill the height */
+    background-color: #f2f6fb;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.career-image {
+    width: 36%;
+    height: auto;
+    object-fit: cover;
+}
+
+.career-main-content {
+    padding: 60px;
+    flex: 1;
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: flex-start; /* Align content at the top */
+}
+
+.career-label {
+    display: inline-block;
+    width:fit-content;
+    background-color: #CDDBED;
+    color: #131313;
+    font-size: 1.3rem;
+    padding: 4px 8px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.career-main-title {
+    font-size: 2rem;
+    font-weight: 100;
+    color: #131313;
+    margin-bottom: 20px; /* Add spacing between title and link */
+}
+
+.career-link {
+    font-size: 1rem;
+    color: #131313;
+    text-decoration: none;
+    margin-top: auto; /* Push this element to the bottom of the container */
+}
+
+.career-link:hover {
+    text-decoration: underline;
+}
+
+.career-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.career-card {
+    border-radius: 10px;
+    padding: 15px;
+    text-align: left;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between; 
+    height: 250px;
+}
+
+.career-card-label {
+    display: inline-block;
+    background-color: #CDDBED;
+    color: #131313;
+    font-size: 1.2rem;
+    padding: 4px 8px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    width: fit-content;
+}
+
+.career-card-description {
+    font-size: 1.4rem;
+    color: #131313;
+    line-height: 1.4;
+}
+
+.career-card-link {
+    font-size: 1rem;
+    color: #131313;
+    text-decoration: none;
+    margin-top: auto; /* Push the link to the bottom */
+}
+
+.career-card-link:hover {
+    text-decoration: underline;
+}
+
+.career-advice {
+    text-align: center;
+}
+
+.career-footer {
+    text-align: center;
+    margin-top: 30px; /* Add spacing above the line */
+}
+
+.footer-line {
+    border: none;
+    height: 1px;
+    background-color: #e0e0e0; /* Light gray color for the line */
+    margin: 30px auto; /* Center the line with vertical spacing */
+    max-width: 1200px; /* Match the width of the main container */
+}
+
+.footer-text {
+    font-size: 1rem;
+    margin-top: 50px; 
+    cursor: pointer;
+}
+
+.footer-text:hover {
+    color: #00989E; 
+    text-decoration: underline;
+}
+
+
+/* .career-advice-button {
+    font-size: 0.9rem;
+    color: #131313;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.career-advice-button:hover {
+    color: #00989E;
+} */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .career-main-block {
+        flex-direction: column; /* Stack image and content vertically */
+        padding: 20px;
+    }
+
+    .career-image {
+        width: 100%; /* Full width for stacked layout */
+        margin-bottom: 15px;
+    }
+
+    .career-main-content {
+        padding-left: 0; /* Remove padding for centered content */
+        text-align: center;
+    }
+
+    .career-cards {
+        grid-template-columns: 1fr; /* Single column on smaller screens */
+    }
+}
