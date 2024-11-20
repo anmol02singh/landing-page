@@ -1,5 +1,5 @@
 .education-page {
-    padding: 100px 48px; 
+    padding: 6.25rem 3rem; /* 100px = 6.25rem, 48px = 3rem */
     background-color: #F2FAFA;
     display: flex;
     justify-content: center;
@@ -7,26 +7,26 @@
 }
 
 .education-container {
-    max-width: 1200px; 
+    max-width: 75rem; /* 1200px = 75rem */
     text-align: center;
 }
 
 .education-content {
-    max-width: 600px; 
+    max-width: 37.5rem; /* 600px = 37.5rem */
     margin: 0 auto;
 }
 
 .education-icon {
-    width: 50px; 
+    width: 3.125rem; /* 50px = 3.125rem */
     height: auto;
 }
 
 .education-title {
-    font-size: 2rem; 
+    font-size: 2rem;
     font-weight: 400;
     color: #131313;
     line-height: 1.2;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem; /* 20px = 1.25rem */
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -35,17 +35,17 @@
     color: #666;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
-    margin-bottom: 30px; /* Space below the description */
+    margin-bottom: 1.875rem; /* 30px = 1.875rem */
 }
 
 .education-button {
     display: inline-block;
-    padding: 12px 24px;
+    padding: 0.75rem 1.5rem; /* 12px = 0.75rem, 24px = 1.5rem */
     font-size: 0.95rem;
     font-family: Arial, Helvetica, sans-serif;
     color: #FFF;
     background-color: #00989E;
-    border-radius: 12px;
+    border-radius: 0.75rem; /* 12px = 0.75rem */
     text-decoration: none;
     transition: background-color 0.3s, color 0.3s;
 }

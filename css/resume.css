@@ -1,18 +1,18 @@
 .container {
-    max-width: 1200px; 
-    margin: 0 auto; 
-    padding: 0 20px;
+    max-width: 75rem; /* 1200px = 75rem */
+    margin: 0 auto;
+    padding: 0 1.25rem; /* 20px = 1.25rem */
 }
 
 .resume-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
-    padding: 40px 48px;
+    gap: 1.25rem; /* 20px = 1.25rem */
+    padding: 2.5rem 3rem; /* 40px = 2.5rem, 48px = 3rem */
     font-family: Arial, sans-serif;
-    max-width: 1200px; 
-    margin: 0 auto; 
+    max-width: 75rem; /* 1200px = 75rem */
+    margin: 0 auto;
 }
 
 .resume-left {
@@ -22,23 +22,23 @@
 .resume-left h2 {
     font-size: 2rem;
     font-weight: 200;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem; /* 10px = 0.625rem */
     color: #000;
 }
 
 .resume-left p {
     font-size: 1rem;
     color: #666;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem; /* 20px = 1.25rem */
     line-height: 1.5;
 }
 
 .upload-button {
     background-color: #00a79d;
     color: #fff;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem; /* 10px = 0.625rem, 20px = 1.25rem */
     border: none;
-    border-radius: 5px;
+    border-radius: 0.3125rem; /* 5px = 0.3125rem */
     font-size: 1rem;
     cursor: pointer;
 }
@@ -51,13 +51,13 @@
     flex: 1;
     background-color: #F2FAFA;
     padding: 2rem;
-    border-radius: 10px;
+    border-radius: 0.625rem; /* 10px = 0.625rem */
 }
 
 .step {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem; /* 20px = 1.25rem */
 }
 
 .step:last-child {
@@ -69,19 +69,19 @@
     font-weight: 500;
     color: #131313;
     background-color: #CDDBED;
-    width: 35px;
-    height: 35px;
+    width: 2.1875rem; /* 35px = 2.1875rem */
+    height: 2.1875rem; /* 35px = 2.1875rem */
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    margin-right: 15px;
+    margin-right: 0.9375rem; /* 15px = 0.9375rem */
 }
 
 .step-content h3 {
     font-size: 1.1rem;
     font-weight: 400;
-    margin-bottom: 5px;
+    margin-bottom: 0.3125rem; /* 5px = 0.3125rem */
     margin-top: 0.5rem;
     color: #131313;
 }
@@ -93,8 +93,7 @@
     margin-bottom: 0.5rem;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 48rem) { /* 768px = 48rem */
     .resume-section {
         flex-direction: column;
         align-items: flex-start;
@@ -102,6 +101,6 @@
 
     .resume-right {
         width: 100%;
-        margin-top: 20px;
+        margin-top: 1.25rem; /* 20px = 1.25rem */
     }
 }
