@@ -56,17 +56,34 @@
     background-color: #00897a;
 }
 
-@media (max-width: 48rem) { /* 768px = 48rem */
+@media (max-width: 480px) {
     .hiring-container {
-        flex-direction: column;
+        flex-direction: column-reverse;
         text-align: center;
+        gap: 3rem;
+    }
+
+    .hiring-section {
+        padding: 4.5rem 3rem 3rem 3rem;
     }
 
     .hiring-image img {
         max-width: 100%;
     }
 
+    .hiring-button {
+        font-size: 0.9rem;
+    }
+
     .hiring-content {
         text-align: center;
+    }
+
+    .hiring-content h2 {
+        font-size: 1.7rem;
+    }
+
+    .hiring-content p {
+        font-size: 0.95rem;
     }
 }

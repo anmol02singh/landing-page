@@ -65,8 +65,13 @@
     text-decoration: underline;
 }
 
-@media (max-width: 48rem) { /* 768px = 48rem */
+@media (max-width: 480px) { /* 768px = 48rem */
     .services-grid {
         grid-template-columns: 1fr;
+    }
+
+    .services-header {
+        font-size: 1.65rem;
+        text-align: center;
     }
 }

@@ -89,9 +89,29 @@
     text-decoration: underline;
 }
 
-@media (max-width: 48rem) { /* 768px = 48rem */
+@media (max-width: 480px) { /* 768px = 48rem */
     .categories-container {
         flex-direction: column;
-        gap: 1.25rem; /* 20px = 1.25rem */
+        gap: 1.5rem; /* 20px = 1.25rem */
+    }
+
+    .horizontal-line {
+        margin: 0 auto 2.125rem;
+    }
+
+    .section-title {
+        font-size: 1.75rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .category p {
+        margin-top: 0rem;
+        margin-left: 3.2rem;
+        margin-top: -0.7rem;
+    }
+
+    .category-header {
+        margin-bottom: 0;
+        align-items: flex-start;
     }
 }

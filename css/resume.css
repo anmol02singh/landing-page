@@ -69,8 +69,8 @@
     font-weight: 500;
     color: #131313;
     background-color: #CDDBED;
-    width: 2.1875rem; /* 35px = 2.1875rem */
-    height: 2.1875rem; /* 35px = 2.1875rem */
+    min-width: 2.1875rem; /* 35px = 2.1875rem */
+    min-height: 2.1875rem; /* 35px = 2.1875rem */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,14 +93,47 @@
     margin-bottom: 0.5rem;
 }
 
-@media (max-width: 48rem) { /* 768px = 48rem */
+@media (min-width: 481px) { /* Larger screens */
+    .responsive-br {
+        display: inline; /* Ensure the line break is visible on larger screens */
+    }
+}
+
+@media (max-width: 480px) { /* 768px = 48rem */
     .resume-section {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
+        text-align: center; 
+        padding: 1.5rem 3rem;
+    }
+
+    .responsive-br {
+        display: none; /* Hide the line break on smaller screens */
+    }
+
+    .resume-left {
+        text-align: center; 
+        margin-bottom: 1.25rem; 
+    }
+
+    .resume-left h2 {
+        font-size: 1.65rem; /* Reduce font size */
+        white-space: nowrap; /* Prevent text wrapping */
+        overflow: hidden; /* Ensure no overflow */
+    }
+
+    .resume-left p {
+        font-size: 0.9rem;
     }
 
     .resume-right {
         width: 100%;
-        margin-top: 1.25rem; /* 20px = 1.25rem */
+        margin-top: 0;
+        text-align: left;
+    }
+
+    .upload-button {
+        margin-top: 1rem;
+        font-size: 0.9rem;
     }
 }

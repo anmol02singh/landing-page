@@ -62,7 +62,7 @@
     border-radius: 0.75rem; /* 12px = 0.75rem */
 }
 
-@media (max-width: 48rem) { /* 768px = 48rem */
+@media (max-width: 480px) { /* 768px = 48rem */
     .about-container {
         flex-direction: column;
         text-align: center;
@@ -75,5 +75,14 @@
 
     .about-button {
         margin: 0 auto;
+        font-size: 0.9rem;
+    }
+
+    .about-title {
+        font-size: 1.65rem;
+    }
+
+    .about-description {
+        font-size: 0.95rem;
     }
 }

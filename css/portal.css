@@ -152,23 +152,60 @@
     text-decoration: underline;
 }
 
-@media (max-width: 48rem) { /* 768px = 48rem */
+@media (max-width: 480px) {
     .career-main-block {
-        flex-direction: column;
-        padding: 1.25rem; /* 20px = 1.25rem */
+        width: 100%; 
+        margin: 0 auto 1.875rem auto; 
+    }
+
+    .career-planning {
+        padding: 2.5rem 2.5rem;
+    }
+
+    .career-title {
+        font-size: 1.65rem;
+    }
+
+    .career-subtitle {
+        font-size: 0.95rem;
     }
 
     .career-image {
-        width: 100%;
-        margin-bottom: 0.9375rem; /* 15px = 0.9375rem */
+        width: 40%; 
+        height: auto;
     }
 
     .career-main-content {
-        padding-left: 0;
-        text-align: center;
+        padding: 1.4rem; 
+    }
+
+    .career-main-title {
+        font-size: 1.4rem; 
+    }
+
+    .career-label {
+        font-size: 0.85rem; 
+    }
+
+    .career-link {
+        font-size: 0.9rem; 
     }
 
     .career-cards {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 1rem; 
+    }
+
+    .career-card {
+        padding: 0.75rem; 
+        height: auto; 
+    }
+
+    .footer-line {
+        width: 90%; 
+    }
+
+    .footer-text {
+        font-size: 0.9rem; 
     }
 }
