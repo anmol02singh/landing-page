@@ -185,4 +185,8 @@
   .job-search-bar {
     gap: 0.625rem;
   }
+
+  .featured-jobs-section {
+    padding: 3rem 1.5rem;
+  }
 }

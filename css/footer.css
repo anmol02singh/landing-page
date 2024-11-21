@@ -93,7 +93,7 @@
     text-decoration: underline;
 }
 
-@media (max-width: 48rem) { /* 768px = 48rem */
+@media (max-width: 480px) { /* 768px = 48rem */
     .footer-container {
         flex-wrap: wrap;
         text-align: center;
@@ -108,5 +108,10 @@
     .footer-middle,
     .footer-right {
         flex: 1;
+        padding: 0;
+    }
+
+    .social-icons {
+        text-align: center;
     }
 }

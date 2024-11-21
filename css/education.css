@@ -54,3 +54,14 @@
     background-color: #F0FBFB;
     color: #00989E;
 }
+
+@media (max-width: 480px) {
+
+    .education-title {
+        font-size: 1.5rem;
+    }
+
+    .education-description {
+        font-size: 0.95rem;
+    }
+}

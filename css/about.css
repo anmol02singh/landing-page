@@ -85,4 +85,8 @@
     .about-description {
         font-size: 0.95rem;
     }
+
+    .about-section {
+        padding: 3.75rem 1.5rem;
+    }
 }

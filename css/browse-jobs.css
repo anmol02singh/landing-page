@@ -74,7 +74,7 @@
 .horizontal-line {
     max-width: 75rem; /* 1200px = 75rem */
     height: 0.0625rem; /* 1px = 0.0625rem */
-    background-color: #ddd;
+    background-color: #e6e6e6;
     margin: 0 auto 3.125rem; /* 50px = 3.125rem */
 }
 
@@ -113,5 +113,9 @@
     .category-header {
         margin-bottom: 0;
         align-items: flex-start;
+    }
+
+    .category-section {
+        padding: 2.5rem 1.5rem 5.625rem 1.5rem;
     }
 }

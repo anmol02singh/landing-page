@@ -74,4 +74,8 @@
         font-size: 1.65rem;
         text-align: center;
     }
+
+    .services-page {
+        padding: 5rem 2rem;
+    }
 }
