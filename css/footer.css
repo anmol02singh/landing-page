@@ -1,5 +1,5 @@
 .footer-section {
-    background-color: #f4f9fb;
+    background-color: #F2F6FB;
     padding: 2.5rem 3rem; /* 40px = 2.5rem, 48px = 3rem */
     font-family: 'DM Sans', sans-serif;
     color: #7A7A7A;
@@ -97,6 +97,7 @@
     .footer-container {
         flex-wrap: wrap;
         text-align: center;
+        flex-direction: column;
     }
 
     .footer-column {
@@ -113,5 +114,14 @@
 
     .social-icons {
         text-align: center;
+    }
+
+    .footer-copyright {
+        margin-top: 1.8rem;
+    }
+
+    .social-media-image {
+        width: 10rem;
+        height: auto;
     }
 }
