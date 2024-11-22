@@ -55,10 +55,6 @@ html, body {
     gap: 0.8rem; 
 }
 
-.nav-links a:hover {
-    text-decoration: underline;
-}
-
 .right-nav-bar {
     display: flex;
     align-items: center;
@@ -74,7 +70,7 @@ html, body {
     gap: 0.8rem; 
 }
 
-.language-switcher:hover, .login-signup a:hover {
+.login-signup a:hover {
     text-decoration: underline;
 }
 
@@ -83,7 +79,7 @@ html, body {
 }
 
 .job-button, .job-button-2 {
-    background-color: #008a8f;
+    background-color: #00989e;
     color: white;
     border: none;
     font-family: Arial, sans-serif;
@@ -95,7 +91,7 @@ html, body {
 }
 
 .job-button:hover, .job-button-2:hover {
-    background-color: #0098a1;
+    background-color: #00897a;
 }
 
 .menu-icon {
@@ -143,7 +139,6 @@ html, body {
     color: black;
 }
 
-/* Partners Section */
 .partners-section {
     background-color: #f2f6fb;
     padding: 1.5rem;
@@ -156,7 +151,7 @@ html, body {
 }
 
 .partners img {
-    max-width: 7rem;
+    max-width: 8rem;
     transition: transform 0.3s ease-in-out;
 }
 

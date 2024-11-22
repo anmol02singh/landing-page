@@ -1,32 +1,44 @@
 .category-section {
     text-align: center;
-    padding: 2.5rem 3rem 5.625rem 3rem; /* 40px = 2.5rem, 48px = 3rem, 90px = 5.625rem */
+    padding: 2.5rem 3rem 5.625rem 3rem; 
     font-family: Arial, sans-serif;
 }
 
 .category-section-boost {
     text-align: center;
-    padding: 5rem 3rem 6.875rem 3rem; /* 80px = 5rem, 110px = 6.875rem */
+    padding: 5rem 3rem 6.875rem 3rem;
     font-family: Arial, sans-serif;
 }
 
 .section-title {
     font-size: 2rem;
     font-weight: 100;
-    margin-bottom: 3.125rem; /* 50px = 3.125rem */
+    margin-bottom: 3.125rem;
     color: #000;
 }
 
 .categories-container {
     display: flex;
     justify-content: center;
-    gap: 9rem; /* Already in rem */
-    margin-bottom: 1.25rem; /* 20px = 1.25rem */
+    gap: 9rem; 
+    margin-bottom: 1.25rem;
 }
 
 .category {
     text-align: center;
-    max-width: 18.75rem; /* 300px = 18.75rem */
+    max-width: 18.75rem;
+}
+
+.category-link {
+    text-decoration: none; 
+    color: inherit; 
+    display: block; 
+}
+
+.category-link h3, 
+.category-link p, 
+.category-link .category-icon img {
+    pointer-events: none; 
 }
 
 .category-header {
@@ -64,18 +76,18 @@
     line-height: 1.4;
     margin: 0;
     text-align: left;
-    margin-top: 1.25rem; /* 20px = 1.25rem */
+    margin-top: 1.25rem; 
 }
 
 .browse-jobs-container {
-    margin-top: 2.5rem; /* 40px = 2.5rem */
+    margin-top: 2.5rem; 
 }
 
 .horizontal-line {
-    max-width: 75rem; /* 1200px = 75rem */
-    height: 0.0625rem; /* 1px = 0.0625rem */
-    background-color: #e6e6e6;
-    margin: 0 auto 3.125rem; /* 50px = 3.125rem */
+    max-width: 75rem; 
+    height: 0.0625rem; 
+    background-color: #E5E5E5;
+    margin: 0 auto 3.125rem; 
 }
 
 .browse-jobs-link {
@@ -87,12 +99,13 @@
 
 .browse-jobs-link:hover {
     text-decoration: underline;
+    color: #00796b;
 }
 
-@media (max-width: 480px) { /* 768px = 48rem */
+@media (max-width: 480px) {
     .categories-container {
         flex-direction: column;
-        gap: 1.5rem; /* 20px = 1.25rem */
+        gap: 1.5rem; 
     }
 
     .horizontal-line {

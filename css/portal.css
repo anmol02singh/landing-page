@@ -77,6 +77,7 @@
 
 .career-link:hover {
     text-decoration: underline;
+    color:#00796b;
 }
 
 .career-cards {
@@ -122,6 +123,7 @@
 
 .career-card-link:hover {
     text-decoration: underline;
+    color:#00796b;
 }
 
 .career-advice {
@@ -136,7 +138,7 @@
 .footer-line {
     border: none;
     height: 0.0625rem; /* 1px = 0.0625rem */
-    background-color: #e0e0e0;
+    background-color: #E5E5E5;
     margin: 1.875rem auto; /* 30px = 1.875rem */
     max-width: 75rem; /* 1200px = 75rem */
 }
@@ -145,6 +147,8 @@
     font-size: 1rem;
     margin-top: 3.125rem; /* 50px = 3.125rem */
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 
 .footer-text:hover {

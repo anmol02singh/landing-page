@@ -51,8 +51,7 @@
 }
 
 .education-button:hover {
-    background-color: #F0FBFB;
-    color: #00989E;
+    background-color: #00897a;
 }
 
 @media (max-width: 480px) {

@@ -63,6 +63,7 @@
 
 .service-link:hover {
     text-decoration: underline;
+    color: #00796b;
 }
 
 @media (max-width: 480px) { /* 768px = 48rem */
