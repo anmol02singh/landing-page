@@ -1,7 +1,7 @@
 .footer-section {
     background-color: #F2F6FB;
     padding: 2.5rem 3rem; 
-    font-family: 'DM Sans', sans-serif;
+    font-family: DM Sans, sans-serif;
     color: #7A7A7A;
 }
 
@@ -37,7 +37,7 @@
 
 .footer-title {
     font-size: 1.2rem;
-    font-weight: 100;
+    font-weight: 400;
     color: #131313;
     margin-bottom: 0.9375rem; 
 }
@@ -45,7 +45,7 @@
 .footer-description {
     font-size: 0.9rem;
     line-height: 1.4;
-    color: #666;
+    color: #7a7a7a;
 }
 
 .footer-links {
@@ -60,13 +60,14 @@
 
 .footer-links a {
     font-size: 0.9rem;
-    color: #666;
+    color: #7a7a7a;
     text-decoration: none;
+    transition: color 0.5s ease;
 }
 
 .footer-links a:hover {
     color: #00989E;
-    text-decoration: underline;
+    transition: color 0.5s ease;
 }
 
 .social-icons {
@@ -85,12 +86,12 @@
 
 .footer-copyright {
     font-size: 0.9rem;
-    color: #666;
+    color: #7a7a7a;
     margin-top: 0.625rem; 
 }
 
 .footer-copyright a {
-    color: #666;
+    color: #7a7a7a;
 }
 
 .footer-copyright a:hover {
@@ -122,8 +123,8 @@
     }
 
     .social-link img {
-        width: 2.8rem; /* Slightly larger on smaller screens */
-        height: 2.8rem;
+        width: 1.95rem; 
+        height: auto;
     }
 
     .footer-copyright {

@@ -18,3 +18,6 @@ loadSection('portal', 'html/portal.html');
 loadSection('education', 'html/education.html');
 loadSection('boost', 'html/boost.html');
 loadSection('footer', 'html/footer.html');
+
+//drop down menus make em hovers
+// move logos up on hero section

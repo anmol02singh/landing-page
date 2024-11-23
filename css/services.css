@@ -1,7 +1,7 @@
 .services-page {
-    padding: 5rem 3rem; /* 80px = 5rem, 48px = 3rem */
+    padding: 7rem 3rem; /* 80px = 5rem, 48px = 3rem */
     background-color: #F2F6FB;
-    font-family: Arial, sans-serif;
+    font-family: DM Sans, sans-serif;
     text-align: left;
 }
 
@@ -12,7 +12,8 @@
 
 .services-header {
     font-size: 1.8rem;
-    font-weight: 100;
+    font-weight: 400;
+    margin-top: 0;
     margin-bottom: 3.125rem; /* 50px = 3.125rem */
     color: #000;
 }
@@ -47,23 +48,25 @@
 }
 
 .service-title {
-    font-size: 1.2rem;
-    font-weight: 100;
+    font-size: 1.5rem;
+    font-weight: 400;
     color: #000;
+    margin-top: 0.5rem;
     margin-bottom: 2.1875rem; /* 35px = 2.1875rem */
-    margin-left: 1.875rem; /* 30px = 1.875rem */
+    margin-left: 1.6rem; /* 30px = 1.875rem */
 }
 
 .service-link {
     font-size: 0.9rem;
-    color: black;
+    color: #131313;
     text-decoration: none;
-    margin-left: 1.875rem; /* 30px = 1.875rem */
+    margin-left: 1.6rem; /* 30px = 1.875rem */
+    transition: color 0.5s ease;
 }
 
 .service-link:hover {
-    text-decoration: underline;
-    color: #00796b;
+    color: #00989e;
+    transition: color 0.5s ease;
 }
 
 @media (max-width: 480px) { /* 768px = 48rem */

@@ -27,13 +27,13 @@
     color: #131313;
     line-height: 1.2;
     margin-bottom: 1.25rem; /* 20px = 1.25rem */
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: DM Sans, sans-serif;
 }
 
 .education-description {
     font-size: 1rem;
-    color: #666;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #7a7a7a;
+    font-family: DM Sans, sans-serif;
     line-height: 1.5;
     margin-bottom: 1.875rem; /* 30px = 1.875rem */
 }
@@ -42,16 +42,18 @@
     display: inline-block;
     padding: 0.75rem 1.5rem; /* 12px = 0.75rem, 24px = 1.5rem */
     font-size: 0.95rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: DM Sans, sans-serif;
     color: #FFF;
     background-color: #00989E;
-    border-radius: 0.75rem; /* 12px = 0.75rem */
+    border-radius: 0.6rem; /* 12px = 0.75rem */
     text-decoration: none;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.5s, color 0.5s;
 }
 
 .education-button:hover {
-    background-color: #00897a;
+    background-color: #f0fbfb;
+    color: #00989e;
+    transition: background-color 0.5s, color 0.5s;
 }
 
 @media (max-width: 480px) {

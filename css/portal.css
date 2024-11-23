@@ -1,7 +1,7 @@
 .career-planning {
-    padding: 2.5rem 3rem; /* 40px = 2.5rem, 48px = 3rem */
+    padding: 6rem 3rem 7rem 3rem; /* 40px = 2.5rem, 48px = 3rem t r b l*/
     background-color: #ffffff;
-    font-family: Arial, sans-serif;
+    font-family: DM Sans, sans-serif;
     text-align: center;
 }
 
@@ -13,15 +13,16 @@
 
 .career-title {
     font-size: 2rem;
-    font-weight: 100;
+    font-weight: 400;
     color: #131313;
+    margin-top: 0;
     margin-bottom: 2.1875rem; /* 35px = 2.1875rem */
     text-align: center;
 }
 
 .career-subtitle {
     font-size: 1rem;
-    color: #666;
+    color: #7a7a7a;
     line-height: 1.4;
     margin-bottom: 2.5rem; /* 40px = 2.5rem */
     text-align: center;
@@ -63,7 +64,7 @@
 
 .career-main-title {
     font-size: 2rem;
-    font-weight: 100;
+    font-weight: 400;
     color: #131313;
     margin-bottom: 1.25rem; /* 20px = 1.25rem */
 }
@@ -73,11 +74,12 @@
     color: #131313;
     text-decoration: none;
     margin-top: auto;
+    transition: color 0.5s ease;
 }
 
 .career-link:hover {
-    text-decoration: underline;
-    color:#00796b;
+    color:#00989e;
+    transition: color 0.5s ease;
 }
 
 .career-cards {
@@ -119,11 +121,12 @@
     color: #131313;
     text-decoration: none;
     margin-top: auto;
+    transition: color 0.5s ease;
 }
 
 .career-card-link:hover {
-    text-decoration: underline;
-    color:#00796b;
+    color:#00989e;
+    transition: color 0.5s ease;
 }
 
 .career-advice {
@@ -148,12 +151,13 @@
     margin-top: 3.125rem; /* 50px = 3.125rem */
     cursor: pointer;
     text-decoration: none;
-    color: black;
+    color: #131313;
+    transition: color 0.5s ease;
 }
 
 .footer-text:hover {
     color: #00989E;
-    text-decoration: underline;
+    transition: color 0.5s ease;
 }
 
 @media (max-width: 480px) {

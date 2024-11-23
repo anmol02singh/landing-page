@@ -1,7 +1,7 @@
 .about-section {
-    padding: 3.75rem 3rem; /* 60px = 3.75rem, 48px = 3rem */
+    padding: 5rem 3rem 3rem 3rem; /* 60px = 3.75rem, 48px = 3rem */
     background-color: #ffffff;
-    font-family: Arial, sans-serif;
+    font-family: DM Sans, sans-serif;
 }
 
 .about-container {
@@ -20,14 +20,14 @@
 
 .about-title {
     font-size: 2rem;
-    font-weight: 100;
+    font-weight: 400;
     color: #131313;
     margin-bottom: 1.25rem; /* 20px = 1.25rem */
 }
 
 .about-description {
     font-size: 1rem;
-    color: #666;
+    color: #7a7a7a;
     line-height: 1.6;
     margin-bottom: 1.875rem; /* 30px = 1.875rem */
 }
@@ -37,15 +37,16 @@
     background-color: #00989e;
     color: white;
     padding: 0.625rem 1.25rem; /* 10px = 0.625rem, 20px = 1.25rem */
-    border-radius: 0.5rem; /* 8px = 0.5rem */
+    border-radius: 0.6rem; /* 8px = 0.5rem */
     text-decoration: none;
     font-size: 0.9rem;
-    font-weight: 100;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 .about-button:hover {
-    background-color: #00897a;
+    background-color: #f0fbfb;
+    color: #00989e;
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 .about-images {
