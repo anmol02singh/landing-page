@@ -50,6 +50,7 @@
     border-radius: 0.6rem; /* 5px = 0.3125rem */
     font-size: 1rem;
     cursor: pointer;
+    height: 41.6px;
     font-family: DM Sans, sans-serif;
     transition: background-color 0.5s ease, color 0.5s ease;
 }

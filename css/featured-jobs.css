@@ -133,7 +133,7 @@
 
 .view-all-link {
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #131313;
   transition: color 0.5s ease;
 }
@@ -178,7 +178,7 @@
   }
 
   .search-jobs-button {
-    width: 100%;
+    width: 23.5rem;
   }
 
   .checkbox-container{
