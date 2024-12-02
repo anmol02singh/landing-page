@@ -262,6 +262,7 @@ html, body {
     .SFcareer-center {
         padding: 0.5rem 1.4rem;
         background-position: left;
+        height: 82vh;
     }
 
     .menu-icon {
@@ -304,6 +305,7 @@ html, body {
     .SFcareer-center {
         padding: 0.5rem 1.4rem;
         background-position: left;
+        height: 48.125rem;
     }
 
     .center-content {
