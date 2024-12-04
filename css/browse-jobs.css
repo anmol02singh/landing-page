@@ -178,17 +178,14 @@
 
     .category1 {
         padding: 0;
-    }
-
-    .category1 p {
-        width: 21rem;
+        transition: none;
     }
 
     .category1 p {
         margin-top: 0rem;
         margin-left: 3.2rem;
         margin-top: -0.7rem;
-        width: 19rem;
+        width: 21rem;
     }
 
     .horizontal-line {
@@ -214,5 +211,20 @@
 
     .category-section {
         padding: 2.5rem 1.5rem 5.625rem 1.5rem;
+    }
+
+    .category-section-boost {
+        padding: 5.625rem 1.5rem 5.625rem 1.5rem;
+    }
+
+    .category1:hover {
+        background-color: unset;
+        border-radius: unset;
+        transition: none;
+    }
+
+    .category1:hover p {
+        color: #7a7a7a;
+        transition: none;
     }
 }
