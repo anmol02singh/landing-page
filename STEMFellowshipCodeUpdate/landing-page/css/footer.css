@@ -1,0 +1,149 @@
+.footer-section {
+    background-color: #F2F6FB;
+    padding: 2.5rem 3rem; 
+    font-family: DM Sans, sans-serif;
+    color: #7A7A7A;
+}
+
+.footer-container {
+    max-width: 75rem; 
+    margin: 0 auto;
+    display: flex;
+    gap: 1.875rem; 
+    flex-wrap: nowrap;
+    text-align: left;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-left {
+    flex: 3;
+}
+
+.footer-middle {
+    flex: 1;
+    border-left: 0.0625rem solid #E0E0E0; 
+    padding-left: 1.875rem; 
+}
+
+.footer-right {
+    flex: 2;
+    border-left: 0.0625rem solid #E0E0E0;
+    padding-left: 1.875rem; 
+}
+
+.footer-title {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #131313;
+    margin-bottom: 0.9375rem; 
+}
+
+.footer-description {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: #7a7a7a;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 0.625rem;
+}
+
+.footer-links a {
+    font-size: 0.9rem;
+    color: #7a7a7a;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+.footer-links a:hover {
+    color: #00989E;
+    transition: color 0.5s ease;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem; 
+    margin-top: 0.625rem;
+    margin-bottom: 0.9375rem;
+    text-align: left;
+}
+
+.social-link img {
+    width: 1.65rem; 
+    height: auto;
+    display: inline-block;
+}
+
+.social-link.facebook:hover img {
+    content: url('/assets/facebookblue.png');
+}
+
+.social-link.twitter:hover img {
+    content: url('/assets/twitterblue.png');
+}
+
+.social-link.instagram:hover img {
+    content: url('/assets/instablue.png');
+}
+
+.social-link.linkedin:hover img {
+    content: url('/assets/linkedinblue.png'); 
+}
+
+.footer-copyright {
+    font-size: 0.9rem;
+    color: #7a7a7a;
+    margin-top: 0.625rem; 
+}
+
+.footer-copyright a {
+    color: #7a7a7a;
+}
+
+.footer-copyright a:hover {
+    text-decoration: underline;
+    color: #00796b;
+}
+
+@media (max-width: 480px) {
+    .footer-container {
+        flex-wrap: wrap;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .footer-column {
+        border-left: none;
+        padding: 1.25rem 0; 
+    }
+
+    .footer-left,
+    .footer-middle,
+    .footer-right {
+        flex: 1;
+        padding: 0;
+    }
+
+    .social-icons {
+        justify-content: center; /* Center icons on smaller screens */
+    }
+
+    .social-link img {
+        width: 1.95rem; 
+        height: auto;
+    }
+
+    .footer-copyright {
+        margin-top: 1.8rem;
+    }
+}
