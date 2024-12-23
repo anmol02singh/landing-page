@@ -135,7 +135,7 @@
     }
 
     .social-icons {
-        justify-content: center; /* Center icons on smaller screens */
+        justify-content: center;
     }
 
     .social-link img {
@@ -144,6 +144,5 @@
     }
 
     .footer-copyright {
-        margin-top: 1.8rem;
-    }
+        margin-top: 1.8rem;    }
 }

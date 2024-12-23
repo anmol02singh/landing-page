@@ -1,12 +1,12 @@
 .career-planning {
-    padding: 6rem 3rem 7rem 3rem; /* 40px = 2.5rem, 48px = 3rem t r b l*/
+    padding: 6rem 3rem 7rem 3rem; 
     background-color: #ffffff;
     font-family: DM Sans, sans-serif;
     text-align: center;
 }
 
 .career-container {
-    max-width: 75rem; /* 1200px = 75rem */
+    max-width: 75rem; 
     margin: 0 auto;
     text-align: left;
 }
@@ -16,7 +16,7 @@
     font-weight: 400;
     color: #131313;
     margin-top: 0;
-    margin-bottom: 2.1875rem; /* 35px = 2.1875rem */
+    margin-bottom: 2.1875rem; 
     text-align: center;
 }
 
@@ -24,7 +24,7 @@
     font-size: 1rem;
     color: #7a7a7a;
     line-height: 1.4;
-    margin-bottom: 2.5rem; /* 40px = 2.5rem */
+    margin-bottom: 2.5rem; 
     text-align: center;
 }
 
@@ -32,9 +32,9 @@
     display: flex;
     align-items: stretch;
     background-color: #f2f6fb;
-    border-radius: 0.625rem; /* 10px = 0.625rem */
+    border-radius: 0.625rem; 
     overflow: hidden;
-    margin-bottom: 1.875rem; /* 30px = 1.875rem */
+    margin-bottom: 1.875rem; 
 }
 
 .career-image {
@@ -44,7 +44,7 @@
 }
 
 .career-main-content {
-    padding: 3.75rem; /* 60px = 3.75rem */
+    padding: 3.75rem; 
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -57,16 +57,16 @@
     background-color: #CDDBED;
     color: #131313;
     font-size: 1.3rem;
-    padding: 0.25rem 0.5rem; /* 4px = 0.25rem, 8px = 0.5rem */
-    border-radius: 0.5rem; /* 8px = 0.5rem */
-    margin-bottom: 0.625rem; /* 10px = 0.625rem */
+    padding: 0.25rem 0.5rem; 
+    border-radius: 0.5rem; 
+    margin-bottom: 0.625rem; 
 }
 
 .career-main-title {
     font-size: 2rem;
     font-weight: 400;
     color: #131313;
-    margin-bottom: 1.25rem; /* 20px = 1.25rem */
+    margin-bottom: 1.25rem; 
 }
 
 .career-link {
@@ -85,18 +85,18 @@
 .career-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.25rem; /* 20px = 1.25rem */
-    margin-bottom: 1.875rem; /* 30px = 1.875rem */
+    gap: 1.25rem; 
+    margin-bottom: 1.875rem; 
 }
 
 .career-card {
-    border-radius: 0.625rem; /* 10px = 0.625rem */
-    padding: 0.9375rem; /* 15px = 0.9375rem */
+    border-radius: 0.625rem; 
+    padding: 0.9375rem; 
     text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 15.625rem; /* 250px = 15.625rem */
+    height: 15.625rem; 
 }
 
 .career-card-label {
@@ -104,9 +104,9 @@
     background-color: #CDDBED;
     color: #131313;
     font-size: 1.2rem;
-    padding: 0.25rem 0.5rem; /* 4px = 0.25rem, 8px = 0.5rem */
-    border-radius: 0.5rem; /* 8px = 0.5rem */
-    margin-bottom: 0.625rem; /* 10px = 0.625rem */
+    padding: 0.25rem 0.5rem; 
+    border-radius: 0.5rem; 
+    margin-bottom: 0.625rem;
     width: fit-content;
 }
 
@@ -135,20 +135,20 @@
 
 .career-footer {
     text-align: center;
-    margin-top: 1.875rem; /* 30px = 1.875rem */
+    margin-top: 1.875rem;
 }
 
 .footer-line {
     border: none;
-    height: 0.0625rem; /* 1px = 0.0625rem */
+    height: 0.0625rem;
     background-color: #E5E5E5;
-    margin: 1.875rem auto; /* 30px = 1.875rem */
-    max-width: 75rem; /* 1200px = 75rem */
+    margin: 1.875rem auto;
+    max-width: 75rem; 
 }
 
 .footer-text {
     font-size: 1rem;
-    margin-top: 3.125rem; /* 50px = 3.125rem */
+    margin-top: 3.125rem; 
     cursor: pointer;
     text-decoration: none;
     color: #131313;

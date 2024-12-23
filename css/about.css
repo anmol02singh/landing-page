@@ -1,20 +1,20 @@
 .about-section {
-    padding: 5rem 3rem 3rem 3rem; /* 60px = 3.75rem, 48px = 3rem */
+    padding: 5rem 3rem 3rem 3rem; 
     background-color: #ffffff;
     font-family: DM Sans, sans-serif;
 }
 
 .about-container {
-    max-width: 75rem; /* 1200px = 75rem */
+    max-width: 75rem; 
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2.5rem; /* 40px = 2.5rem */
+    gap: 2.5rem; 
 }
 
 .about-text {
-    max-width: 37.5rem; /* 600px = 37.5rem */
+    max-width: 37.5rem; 
     text-align: left;
 }
 
@@ -22,22 +22,22 @@
     font-size: 2rem;
     font-weight: 400;
     color: #131313;
-    margin-bottom: 1.25rem; /* 20px = 1.25rem */
+    margin-bottom: 1.25rem; 
 }
 
 .about-description {
     font-size: 1rem;
     color: #7a7a7a;
     line-height: 1.6;
-    margin-bottom: 1.875rem; /* 30px = 1.875rem */
+    margin-bottom: 1.875rem; 
 }
 
 .about-button {
     display: inline-block;
     background-color: #00989e;
     color: white;
-    padding: 0.625rem 1.25rem; /* 10px = 0.625rem, 20px = 1.25rem */
-    border-radius: 0.6rem; /* 8px = 0.5rem */
+    padding: 0.625rem 1.25rem; 
+    border-radius: 0.6rem; 
     text-decoration: none;
     font-size: 1rem;
     height: 21.6px;
@@ -60,14 +60,14 @@
 .main-image {
     max-width: 100%;
     height: auto;
-    border-radius: 0.75rem; /* 12px = 0.75rem */
+    border-radius: 0.75rem; 
 }
 
-@media (max-width: 480px) { /* 768px = 48rem */
+@media (max-width: 480px) { 
     .about-container {
         flex-direction: column;
         text-align: center;
-        gap: 1.25rem; /* 20px = 1.25rem */
+        gap: 1.25rem; 
     }
 
     .about-text {
