@@ -208,24 +208,26 @@ html, body {
 }
 
 .gtranslate_wrapper select {
-    background: transparent; 
-    border: none; 
+    background: transparent;
+    border: none;
     color: white;
-    font-family: inherit; 
-    font-size: inherit; 
+    font-family: inherit;
+    font-size: inherit;
     cursor: pointer;
-    outline: none; 
-    -webkit-appearance: none; 
-    -moz-appearance: none;
+    outline: none;
     appearance: none;
-    width: 4rem;
+    width: 4.2rem; 
+    text-align: left; 
+    padding-left: 0; 
+    direction: ltr; 
+    display: flex; 
+    justify-content: flex-end; 
 }
 
 .gtranslate_wrapper::after {
     content: url('/assets/dropdown.png');
     font-size: 0.8rem;
     color: white;
-    margin-left: 0.1rem;
 }
 
 .gtranslate_wrapper.active::after {
@@ -239,6 +241,7 @@ html, body {
 .gtranslate_wrapper select option {
     color: black;
 }
+
 .login-signup a {
     color: white;
     font-size: 0.95rem; 
