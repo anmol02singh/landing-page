@@ -392,6 +392,10 @@ html, body {
     margin: 0.8rem 0rem 0rem 0rem;
 }
 
+.mobile-menu ul .mobile-nested-dropdown-menu {
+    margin-top: 0.3rem;
+}
+
 .mobile-menu ul li a {
     text-decoration: none;
     color: #B9B9B9;
@@ -439,6 +443,34 @@ html, body {
     height: 0.45rem;
     width: auto;
 }
+
+.mobile-nested-dropdown {
+    position: relative;
+}
+
+.mobile-nested-heading {
+    color: #B9B9B9;
+    cursor: pointer;
+    padding-top: 0.5rem;
+}
+
+.mobile-nested-dropdown-menu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.mobile-nested-dropdown-menu li a {
+    text-decoration: none;
+    color: #B9B9B9;
+    font-size: 0.9rem;
+    padding: 0.3rem 0;
+}
+
+.mobile-nested-dropdown-menu.visible {
+    max-height: 500px;
+}
+
 
 @media (max-width: 768px) {
     .nav-links, .login-signup, .nav-button {

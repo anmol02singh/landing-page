@@ -51,6 +51,21 @@ loadSection('main-page', 'html/main-page.html', () => {
             }
         });
     });
+    document.querySelectorAll('.mobile-nested-dropdown').forEach((nestedToggle) => {
+        const nestedHeading = nestedToggle.querySelector('.mobile-nested-heading');
+        const nestedMenu = nestedToggle.querySelector('.mobile-nested-dropdown-menu');
+
+        nestedHeading.addEventListener('click', (e) => {
+            e.stopPropagation();
+
+            const isAlreadyVisible = nestedMenu.classList.contains('visible');
+            if (isAlreadyVisible) {
+                nestedMenu.classList.remove('visible');
+            } else {
+                nestedMenu.classList.add('visible');
+            }
+        });
+    });
 
     if (gtranslateWrapper && rightNavBar) {
         const loginSignupElement = document.querySelector('.login-signup');
