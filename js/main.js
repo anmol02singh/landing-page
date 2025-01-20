@@ -41,13 +41,13 @@ loadSection('main-page', 'html/main-page.html', () => {
                     const otherIcon = otherToggle.querySelector('.dropdown-icon-mobile');
                     if (otherMenu && otherMenu !== dropdownMenu) {
                         otherMenu.classList.remove('visible');
-                        otherIcon.src = '/assets/dropdown.png';
+                        otherIcon.src = '/assets/dropdown.svg';
                     }
                 });
                 dropdownMenu.classList.toggle('visible');
     
                 const isVisible = dropdownMenu.classList.contains('visible');
-                dropdownIcon.src = isVisible ? '/assets/dropup.png' : '/assets/dropdown.png';
+                dropdownIcon.src = isVisible ? '/assets/dropup.svg' : '/assets/dropdown.svg';
             }
         });
     });

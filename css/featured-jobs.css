@@ -30,7 +30,7 @@
 }
 
 .location-input {
-  background-image: url('/assets/location.png');
+  background-image: url('/assets/location.svg');
   background-size: 0.8rem;
   background-repeat: no-repeat;
   background-position: 0.625rem center;
